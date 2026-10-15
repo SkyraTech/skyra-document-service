@@ -2,13 +2,17 @@
 
 Creates editable project and business documents from structured briefs and templates, with rendering, validation and traceable deliverables.
 
-## Current status
+Specification only; no generation/validation service implemented.
 
-New documentation-only project. Jarvis currently has basic Office edits, not a complete document-generation and verification service.
+## Maintained documentation
 
-This documentation describes the target. It does not claim implementation, deployment or passing runtime tests. No source code was changed in the documentation reset.
+- [Architecture, database and implementation decisions](docs/ARCHITECTURE.md)
+- [Functionality and requirements](docs/FUNCTIONALITY.md)
+- [Development status, tasks and verification](docs/DEVELOPMENT.md)
 
-## Documents
+[Repository catalogue](../REPOSITORIES.md).
+
+## Initial project documents — retain and maintain
 
 - [Product requirements](docs/01_PRODUCT_REQUIREMENTS.md)
 - [System architecture](docs/02_SYSTEM_ARCHITECTURE.md)
@@ -19,7 +23,3 @@ This documentation describes the target. It does not claim implementation, deplo
 - [API and event contracts](docs/07_API_AND_EVENTS.md)
 - [Testing and acceptance](docs/08_TESTING_AND_ACCEPTANCE.md)
 - [Security and operations](docs/09_SECURITY_AND_OPERATIONS.md)
-
-## Ecosystem
-
-[Project boundaries and build order](../skyra-service-contracts/docs/10_ECOSYSTEM_ARCHITECTURE.md).

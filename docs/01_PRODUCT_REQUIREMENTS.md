@@ -1,6 +1,18 @@
 # Skyra Document Generation Service — Product Requirements
 
-Prepared: 2026-10-14. Status: proposed implementation baseline. User requirements are captured here; technical choices remain subject to implementation validation.
+## Maintained specification — current status
+
+Updated 2026-10-14. This is one of the nine initial project documents and must be retained and updated in place. Remove only redundant per-work reports; do not replace or delete the initial specification set.
+
+Specification only; no generation/validation service implemented.
+
+The following references hold the detailed current implementation; requirements and proposed designs below must not be read as already built:
+
+- [Current architecture and database design](ARCHITECTURE.md)
+- [Current functionality and implementation boundaries](FUNCTIONALITY.md)
+- [Current milestone and verification summary](DEVELOPMENT.md)
+
+Prepared: 2026-10-14. Requirement/design baseline. Use the maintained current-status section above to distinguish implemented work from planned work.
 
 ## Product overview
 
@@ -8,7 +20,7 @@ Creates editable project and business documents from structured briefs and templ
 
 ## Problem and current baseline
 
-New documentation-only project. Jarvis currently has basic Office edits, not a complete document-generation and verification service.
+Initial baseline: documentation-only project at the time of specification; current implementation status is stated above. Jarvis currently has basic Office edits, not a complete document-generation and verification service.
 
 Existing prototypes do not establish production readiness. The objective is a reusable, testable boundary with explicit ownership and verifiable outcomes.
 
